@@ -1,0 +1,261 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Prithika S | Portfolio</title>
+
+<style>
+:root {
+  --bg: #f7f7fb;
+  --card: #ffffff;
+  --ink: #20223a;
+  --muted: #656980;
+  --accent: #6558d3;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: var(--bg);
+  color: var(--ink);
+  line-height: 1.6;
+}
+
+header {
+  background: white;
+  padding: 18px;
+  text-align: center;
+  border-bottom: 1px solid #e6e5f0;
+}
+
+nav a {
+  color: var(--ink);
+  text-decoration: none;
+  margin: 10px;
+}
+
+nav a:hover {
+  color: var(--accent);
+}
+
+main {
+  max-width: 950px;
+  margin: auto;
+  padding: 25px;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+  padding: 45px 0;
+}
+
+h1 {
+  font-size: 42px;
+  line-height: 1.2;
+}
+
+h2 {
+  color: var(--accent);
+}
+
+p {
+  color: var(--muted);
+}
+
+.card {
+  background: var(--card);
+  padding: 25px;
+  margin: 20px 0;
+  border-radius: 16px;
+  box-shadow: 0 5px 20px #00000008;
+}
+
+.profile-photo {
+  width: 180px;
+  height: 200px;
+  object-fit: cover;
+  object-position: center 25%;
+  border-radius: 18px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 16px;
+  background: var(--accent);
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+}
+
+.skills span {
+  display: inline-block;
+  background: #efedff;
+  color: #4f45ad;
+  padding: 8px 12px;
+  margin: 5px;
+  border-radius: 20px;
+}
+
+footer {
+  text-align: center;
+  padding: 25px;
+  background: white;
+}
+
+@media (max-width: 600px) {
+  .hero {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  h1 {
+    font-size: 34px;
+  }
+
+  nav a {
+    display: inline-block;
+    margin: 5px;
+  }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <h2>PRITHIKA S</h2>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#experience">Experience</a>
+    <a href="#skills">Skills</a>
+    <a href="#education">Education</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<main>
+
+<section class="hero" id="about">
+  <div>
+    <p>PROFESSIONAL PORTFOLIO</p>
+    <h1>Hello, I'm<br>Prithika S.</h1>
+    <p>
+      Computer Science graduate with experience in
+      claims processing, documentation and data entry.
+      I believe in accuracy, teamwork and continuous learning.
+    </p>
+    <a class="btn" href="#contact">Contact Me</a>
+  </div>
+
+  <img
+    class="profile-photo"
+    src="profile.jpg"
+    alt="Prithika S"
+  >
+</section>
+
+<section>
+  <h2>About Me</h2>
+  <div class="card">
+    <p>
+      I completed my B.Sc. in Computer Science at
+      Avinashilingam Institute for Home Science and
+      Higher Education for Women. I worked at
+      Cognizant Technology Solutions as a Process Executive.
+      I am interested in learning new skills and growing
+      professionally.
+    </p>
+  </div>
+</section>
+
+<section id="experience">
+  <h2>Professional Experience</h2>
+  <div class="card">
+    <h3>Cognizant Technology Solutions</h3>
+    <p>Process Executive | Coimbatore</p>
+    <p>March 2025 – June 2026</p>
+    <ul>
+      <li>Processed and verified claims accurately.</li>
+      <li>Handled client queries and resolutions.</li>
+      <li>Performed data entry and documentation.</li>
+      <li>Supported daily business operations.</li>
+      <li>Worked with the team to achieve quality targets.</li>
+    </ul>
+  </div>
+</section>
+
+<section id="skills">
+  <h2>My Skills</h2>
+  <div class="card skills">
+    <h3>Technical Skills</h3>
+    <span>Python Basics</span>
+    <span>Microsoft Excel</span>
+    <span>Microsoft Word</span>
+    <span>Data Entry</span>
+    <span>Documentation</span>
+
+    <h3>Professional Skills</h3>
+    <span>Communication</span>
+    <span>Teamwork</span>
+    <span>Adaptability</span>
+    <span>Time Management</span>
+  </div>
+</section>
+
+<section id="education">
+  <h2>Education</h2>
+  <div class="card">
+    <h3>B.Sc. Computer Science</h3>
+    <p>
+      Avinashilingam Institute for Home Science
+      and Higher Education for Women
+    </p>
+    <p>2021 – 2024 | Coimbatore</p>
+  </div>
+</section>
+
+<section>
+  <h2>Languages</h2>
+  <div class="card">
+    <p>Tamil | English</p>
+  </div>
+</section>
+
+<section id="contact">
+  <h2>Contact Me</h2>
+  <div class="card">
+    <p>
+      Email:
+      <a href="mailto:prithikasasikumar1207@gmail.com">
+        prithikasasikumar1207@gmail.com
+      </a>
+    </p>
+    <p>
+      Phone:
+      <a href="tel:9080040887">9080040887</a>
+    </p>
+    <p>Location: Coimbatore, Tamil Nadu</p>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <p>© 2026 Prithika S | My Portfolio</p>
+</footer>
+
+</body>
+</html>
